@@ -1,4 +1,4 @@
-# Mind your language action
+# Mind your language action  
 
 This action monitor comments to issues and pull requests, and remind the sender if offensive language is found.
 
