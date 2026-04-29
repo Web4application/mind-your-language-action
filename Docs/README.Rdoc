@@ -7,7 +7,7 @@ This action monitor comments to issues and pull requests, and remind the sender 
 Create the following workflow file `mind-your-language.yml` in the `.github/workflows/` directory of your repository:
 
 ```yml
-name: Mind your language
+name: Mind your languag
 on:
   issues:
     types:
@@ -27,7 +27,7 @@ jobs:
     name: profanity check
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2 
       - name: Profanity check step
         uses: tailaiw/mind-your-language-action@v1.0.3
         env:
